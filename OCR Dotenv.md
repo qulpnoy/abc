@@ -1,0 +1,30 @@
+```bash
+# API Token
+API_TOKEN=asdjkhj8hsd!s8adhASas
+
+# Postgres info for airflow
+POSTGRES_USER=airflow
+POSTGRES_PASSWORD=airflow
+POSTGRES_DB=airflow
+
+## AIRFLOW SETTINGS
+AIRFLOW_BASE_URL=http://airflow-webserver:8080
+AIRFLOW_USER=admin
+AIRFLOW_PASSWORD=admin
+AIRFLOW_EMAIL=admin@gmail.com
+AIRFLOW_FIRSTNAME=UserFirstname
+AIRFLOW_LASTNAME=UserLastname
+
+# backend
+FAST_API_BASE_URL=http://backend:8282
+
+# rabbitmq
+RABBITMQ_USER=admin
+RABBITMQ_PASS=admin
+
+AIRFLOW_SECRET_KEY=X9VORFD8bvp2LH13wRjF0KtbJL2afX5E-coQkc33i-Y=
+TIKA_SERVER_URL=http://tika-server:9998
+
+# Path to data folder
+DATA_PATH=/var/lib/datagaze/.data/data
+```
